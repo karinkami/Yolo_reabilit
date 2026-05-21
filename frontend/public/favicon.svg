@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Reabilit">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d9488"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="url(#bg)"/>
+  <path
+    d="M16 24.2c-.3 0-.6-.15-.85-.4C12.1 21.2 8.5 18.1 8.5 14.4c0-2.65 2.1-4.7 4.65-4.7 1.45 0 2.75.7 3.55 1.75.8-1.05 2.1-1.75 3.55-1.75 2.55 0 4.65 2.05 4.65 4.7 0 3.7-3.6 6.8-6.65 9.4-.25.25-.55.4-.85.4z"
+    fill="#fce7f3"
+  />
+  <path
+    d="M16 23.2c-.2 0-.4-.1-.55-.25-2.7-2.35-5.15-4.85-5.15-7.55 0-2.1 1.65-3.75 3.75-3.75 1.15 0 2.2.55 2.85 1.4.65-.85 1.7-1.4 2.85-1.4 2.1 0 3.75 1.65 3.75 3.75 0 2.7-2.45 5.2-5.15 7.55-.15.15-.35.25-.55.25z"
+    fill="#fda4af"
+    opacity="0.55"
+  />
+</svg>

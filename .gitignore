@@ -1,0 +1,67 @@
+# --- Локальные данные и секреты ---
+instance/
+*.db
+*.sqlite
+*.sqlite3
+appsettings.json
+appsetting.json
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# --- Виртуальные окружения ---
+.venv/
+venv/
+env/
+yolo_env/
+
+# --- Frontend (Node / Vite) ---
+node_modules/
+frontend/.vite/
+frontend/dist/
+
+# Сборка SPA: npm run build → app/static/web-dist/
+app/static/web-dist/
+
+# --- YOLO / Ultralytics (скачанные веса, артефакты обучения) ---
+*.pt
+*.onnx
+runs/
+weights/
+
+# --- Логи и кэш ---
+*.log
+logs/
+.cache/
+
+# --- IDE и ОС ---
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# --- Устаревшие локальные заметки (есть docs/ и README) ---
+инструкция по запуску
